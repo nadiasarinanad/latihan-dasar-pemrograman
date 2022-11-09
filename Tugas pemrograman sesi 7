@@ -1,5 +1,5 @@
 def Luas_Segitiga():
-    print("✨Hitung Luas Segitiga✨")
+    print("Hitung Luas Segitiga")
     alas = int(input('Masukan alasnya: '))
     tinggi = int(input('Masukan tingginya: '))
     Luas = 1/2 * (alas * tinggi)
