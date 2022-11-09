@@ -19,9 +19,9 @@ def Bilangan_Ganjil_Genap():
     Ganjil = []
     Genap = []
     for i in range(awal, akhir+1):
-        if i % 2 == 0:
-            Ganjil.append(i)
         if i % 2 == 1:
+            Ganjil.append(i)
+        if i % 2 == 0:
             Genap.append(i)
     print('Bilangan Ganjil: ', Ganjil,)
     print('Bilangan Genap: ', Genap,)
